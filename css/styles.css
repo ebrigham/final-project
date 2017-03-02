@@ -40,6 +40,8 @@ body {
 }
 
 @media only screen and (max-width: 479px) { 
+    .navbar { padding-bottom: 45px; }
+    .nav-item {margin-top: 35px;}
     #img-1 { display: none; }
     #img-2 { display: none; }
     #img-3 { display: none; }
