@@ -17,13 +17,31 @@ body {
     #img-4 { display: none; }
     #img-5 { display: none; }
     #img-6 { display: none; }
+    #img-7 { display: none; }
+    #img-8 { display: none; }
+    #img-9 { display: none; }
 }
 
-@media only screen and (max-width: 479px) { 
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
     #img-1 { display: none; }
     #img-2 { display: none; }
     #img-3 { display: none; }
     #img-4 { display: block; }
     #img-5 { display: block; }
     #img-6 { display: block; }
+    #img-7 { display: none; }
+    #img-8 { display: none; }
+    #img-9 { display: none; }
+}
+
+@media only screen and (max-width: 479px) { 
+    #img-1 { display: none; }
+    #img-2 { display: none; }
+    #img-3 { display: none; }
+    #img-4 { display: none; }
+    #img-5 { display: none; }
+    #img-6 { display: none; }
+    #img-7 { display: block; }
+    #img-8 { display: block; }
+    #img-9 { display: block; }
 }
