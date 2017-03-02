@@ -3,11 +3,27 @@
 }
 
 carousel {
-    position: relative;
+    max-width: 100%;
 }
 
 body {
     background: darkolivegreen;
 }
 
+@media only screen and (min-width: 768px) { 
+    #img-1 { display: block; }
+    #img-2 { display: block; }
+    #img-3 { display: block; }
+    #img-4 { display: none; }
+    #img-5 { display: none; }
+    #img-6 { display: none; }
+}
 
+@media only screen and (max-width: 479px) { 
+    #img-1 { display: none; }
+    #img-2 { display: none; }
+    #img-3 { display: none; }
+    #img-4 { display: block; }
+    #img-5 { display: block; }
+    #img-6 { display: block; }
+}
