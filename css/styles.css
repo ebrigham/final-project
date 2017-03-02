@@ -2,8 +2,10 @@
     margin-right: 5px;
 }
 
-carousel {
-    max-width: 100%;
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 body {
@@ -11,9 +13,10 @@ body {
 }
 
 @media only screen and (min-width: 768px) { 
-    #img-1 { display: block; }
-    #img-2 { display: block; }
-    #img-3 { display: block; }
+    .nav-item { margin-bottom: 5px; margin-top: 5px; }
+    #img-1 { margin: auto; display: block; }
+    #img-2 { margin: auto; display: block; }
+    #img-3 { margin: auto; display: block; }
     #img-4 { display: none; }
     #img-5 { display: none; }
     #img-6 { display: none; }
@@ -23,12 +26,14 @@ body {
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) { 
+    .navbar { padding-bottom: 45px; }
+    .nav-item {margin-top: 35px;}
     #img-1 { display: none; }
     #img-2 { display: none; }
     #img-3 { display: none; }
-    #img-4 { display: block; }
-    #img-5 { display: block; }
-    #img-6 { display: block; }
+    #img-4 { margin: auto; display: block; }
+    #img-5 { margin: auto; display: block; }
+    #img-6 { margin: auto; display: block; }
     #img-7 { display: none; }
     #img-8 { display: none; }
     #img-9 { display: none; }
@@ -41,7 +46,7 @@ body {
     #img-4 { display: none; }
     #img-5 { display: none; }
     #img-6 { display: none; }
-    #img-7 { display: block; }
-    #img-8 { display: block; }
-    #img-9 { display: block; }
+    #img-7 { margin: auto; display: block; }
+    #img-8 { margin: auto; display: block; }
+    #img-9 { margin: auto; display: block; }
 }
