@@ -19,9 +19,13 @@ body {
     margin-top: 10px;
 }
 
-.menu td {
+table {
+    background-color: #38471f;
     border-radius: 25px;
-    padding: 5px;
+}
+
+.menu td {
+    padding: 15px;
 }
 
 .menu th {
@@ -29,6 +33,7 @@ body {
     font-family: 'Roboto';
     color: white;
     font-weight: 300;
+    padding-top: 10px;
 }
 
 @media only screen and (min-width: 768px) { 
