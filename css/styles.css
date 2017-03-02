@@ -16,6 +16,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-top: 10px;
 }
 
 .menu td {
@@ -25,7 +26,9 @@ body {
 
 .menu th {
     text-align: center;
-    font-family: 'Roboto;'
+    font-family: 'Roboto';
+    color: white;
+    font-weight: 300;
 }
 
 @media only screen and (min-width: 768px) { 
