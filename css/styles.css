@@ -12,6 +12,22 @@ body {
     background: darkolivegreen;
 }
 
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.menu td {
+    border-radius: 25px;
+    padding: 5px;
+}
+
+.menu th {
+    text-align: center;
+    font-family: 'Roboto;'
+}
+
 @media only screen and (min-width: 768px) { 
     .nav-item { margin-bottom: 5px; margin-top: 5px; }
     #img-1 { margin: auto; display: block; }
@@ -48,7 +64,7 @@ body {
     #img-4 { display: none; }
     #img-5 { display: none; }
     #img-6 { display: none; }
-    #img-7 { margin: auto; display: block; }
-    #img-8 { margin: auto; display: block; }
-    #img-9 { margin: auto; display: block; }
+    #img-7 { margin: auto; display: inline; }
+    #img-8 { margin: auto; display: inline; }
+    #img-9 { margin: auto; display: inline; }
 }
