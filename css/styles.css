@@ -1,9 +1,5 @@
 @media only screen and (min-width: 768px) { 
     .nav-item { margin-bottom: 5px; margin-top: 5px; }
-    #img-1 {display: block;}
-    #img-2 {display: block;}
-    #img-3 {display: block;}
-    #img-4 {display: none;}
     header p {
         float: right;
         color: #38471f;
@@ -12,23 +8,25 @@
         font-size: 30pt;
         white-space: nowrap;
     }
+      #small-content { display: none; }      
 }
 
 @media only screen and (max-width: 767px) { 
     .navbar { padding-bottom: 45px; }
     .nav-item {margin-top: 35px;}
-    #img-1 {display: none;}
-    #img-2 {display: none;}
-    #img-3 {display: none;}
-    #img-4 {display: block;}
-
     header p { 
         color: #38471f;
         font-family: 'Marvel';
         float: left;
-        font-size: 14pt;
-        font-weight: normal;
+        font-size: 20pt;
+        font-weight: bold;
     }
+    #content { display: none; }
+    #small-content { margin-top: 10px; }
+}
+
+.navbar-nav {
+    font-weight: bold;
 }
 
 footer {
