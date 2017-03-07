@@ -10,6 +10,37 @@
     }
     .container .mobile-title p { display: none; }
     #small-content { display: none; }      
+    .commissions {
+        font-family: 'Marvel';
+        margin-top: 50px;
+        color: #30221d;
+    }
+    .commissions table { margin-left: 100px; }
+    .commissions h1 { font-weight: 900; }
+    .commissions p { font-size: 20px; }
+    .commissions li {
+        margin-left: 25px;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .commissions img {
+        display: run-in;
+        margin-right: 100px;
+        height: 300px;
+        width: auto;
+    }
+    .commissions #contact {
+        display: block;
+        margin-left: 550px;
+        font-size: 25px;
+        font-weight: 800;
+    } 
+    .commissions #mobileContact { display: none; }
+    table {
+        background-color: #604439;		
+        border-radius: 25px;
+    }
+    table th { padding: 15px; }
 }
 
 @media only screen and (max-width: 767px) { 
@@ -24,6 +55,15 @@
     .container p { display: none; }
     #content { display: none; }
     #small-content { margin-top: 10px; }
+    .commissions{
+        font-family: 'Marvel';
+        color: #30221d;
+        margin-top: 10%;
+    }
+    .commissions p { font-size: 18pt;}
+    .commissions table { margin-left: 10%; }
+    .commissions img { display: none; }
+    .commissions #contact { display: none; }
 }
 
 .navbar-nav {
@@ -34,6 +74,7 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+    margin-left: 0px;
 }
 
 .footer-copyright .row {
@@ -60,7 +101,7 @@ body {
 }
 
 .carousel {
-    padding-top: 10px;
+    padding-top: 25px;
     position: center;
 }
 
@@ -79,37 +120,6 @@ body {
 #img-3 {
     margin-top: 30px;
     margin-left: 7.5%;
-}
-
-#img-4 {
-    height: 75%;
-    width: 75%;
-    margin-left: 12%
-}
-
-.menu {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 10px;
-    margin-bottom: 50px;
-}
-
-table {
-    background-color: #604439;		
-    border-radius: 25px;
-}
-
-.menu td {
-    padding: 15px;
-}
-
-.menu th { 
-    text-align: center;
-    font-family: 'Roboto';
-    color: white;
-    font-weight: 300;
-    padding-top: 10px;
 }
 
 .gallery {
@@ -148,3 +158,4 @@ table {
 	outline: none;
 	display: block;
 }
+
