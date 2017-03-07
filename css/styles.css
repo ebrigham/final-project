@@ -1,6 +1,6 @@
 @media only screen and (min-width: 768px) { 
     .nav-item { margin-bottom: 5px; margin-top: 5px; }
-    header p {
+    .container p {
         float: right;
         color: #38471f;
         font-weight: 900;
@@ -8,19 +8,20 @@
         font-size: 30pt;
         white-space: nowrap;
     }
-      #small-content { display: none; }      
+    .container .mobile-title p { display: none; }
+    #small-content { display: none; }      
 }
 
 @media only screen and (max-width: 767px) { 
-    .navbar { padding-bottom: 45px; }
     .nav-item {margin-top: 35px;}
-    header p { 
+    .container .mobile-title p { 
+        display: inline;
         color: #38471f;
         font-family: 'Marvel';
-        float: left;
         font-size: 20pt;
         font-weight: bold;
     }
+    .container p { display: none; }
     #content { display: none; }
     #small-content { margin-top: 10px; }
 }
