@@ -18,8 +18,12 @@
         font-family: 'Marvel';
         margin-top: 50px;
         color: #30221d;
+        text-align: center;
     }
-    .commissions table { margin-left: 110px; }
+    .commissions table { 
+        display:inline-block;
+        margin: auto;
+    }
     .commissions h1 { font-weight: 900; }
     .commissions p { font-size: 20px; }
     .commissions li {
@@ -29,7 +33,6 @@
     }
     .commissions img {
         display: run-in;
-        margin-right: 100px;
         height: 300px;
         width: auto;
     }
