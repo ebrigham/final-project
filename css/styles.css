@@ -1,8 +1,12 @@
 @media only screen and (min-width: 768px) { 
     .nav-item { margin-bottom: 5px; margin-top: 5px; }
+    #img-1 { display: block; }
+    #img-2 { display: block; }
+    #img-3 { display: block; }
+    #img-4 { display: none; }
     .container p {
         float: right;
-        color: #38471f;
+        color: #30221d;
         font-weight: 900;
         font-family: 'Marvel';
         font-size: 30pt;
@@ -45,9 +49,12 @@
 
 @media only screen and (max-width: 767px) { 
     .nav-item {margin-top: 35px;}
+     #img-1 {display: none;}
+     #img-2 {display: none;}
+     #img-3 {display: none;}
     .container .mobile-title p { 
         display: inline;
-        color: #38471f;
+        color: #30221d;
         font-family: 'Marvel';
         font-size: 20pt;
         font-weight: bold;
@@ -59,7 +66,7 @@
         font-family: 'Marvel';
         color: #30221d;
         margin-top: 10%;
-        margin-bottom: 10%;
+        margin-bottom: 20%;
     }
     .commissions p { font-size: 14pt;}
     .commissions table { margin-left: 10%; }
@@ -121,6 +128,13 @@ body {
 #img-3 {
     margin-top: 30px;
     margin-left: 7.5%;
+}
+
+#img-4 {
+    height: auto;
+    width: 75%;
+    margin-top: 5%;
+    margin-left: 12.5%;
 }
 
 .gallery {
